@@ -1,0 +1,40 @@
+.container {
+  position: absolute;
+  left: 20%;
+}
+.roulette {
+  position: absolute;
+  margin: 0 auto;
+  width: 757px;
+  height: 757px;
+  left: 40%;
+  background-color: white;
+  background-size: 757px 757px;
+  background-image: url('wheel.png');
+  border-radius: 757px;
+}
+
+.spinner {
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  border: none;
+  position: absolute;
+  width: 147px;
+  height: 145px;
+  top: 308px;
+  left: 305px;
+  border-radius: 100%;
+  z-index: 1000;
+  background-color: black;
+  background-image: url('pointer.png');
+}
+.spinner .pointer {
+  position: absolute;
+  width: 20px;
+  height: 13px;
+  top: -308px;
+  left: 59px;
+  background-color: black;
+  background-image: url('points.png');
+}
